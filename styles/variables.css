@@ -8,7 +8,13 @@
   --font-color-accent: #ff0070;
   --font-color-title: #db00ff;
   --font-color-header: #000028;
+  --font-color-content-title: #ff0070;
   --bg-color: #000028;
   --font-size-header-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --button-outline-color: rgba(255, 0, 112, 0.4);
+  --shadow-font-color: #ff0070;
+  --display-rec: flex;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --focus-color: #ff0070;
 }

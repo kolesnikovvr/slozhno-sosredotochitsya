@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <meta name="color-scheme" content="dark light" />
-    <link rel="favicon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="favicon" href="./images/favicon.svg" type="images/svg+xml" />
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
-    <header class="header decorated-zone">
-      <nav class="header__theme-menu">
+    <header class="header">
+      <nav class="header__theme-menu decorated-zone">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
@@ -45,12 +45,12 @@
       </nav>
       <h1 class="header__title">no focus</h1>
       <div class="header__content">
-        <p class="content__text-accent">
+        <p class="content__text-accent header__content__text-accent">
           Что делать, когда не можешь делать ничего<br />Или почему нам так
           сложно сконцентрироваться, особенно когда очень надо
         </p>
       </div>
-      <div class="header__rec">
+      <div class="header__rec" aria-hidden="true">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="21"
@@ -256,7 +256,9 @@
         </div>
       </section>
       <section class="content__section-image">
-        <h5 class="content__section-image-title">А можно в картинках?</h5>
+        <h5 class="content__section-image-title content__text-accent">
+          А можно в картинках?
+        </h5>
         <ul class="image-containers">
           <li class="image-container-sunset">
             <img
@@ -300,8 +302,8 @@
           </li>
         </ul>
       </section>
-      <footer class="footer decorated-zone">
-        <h6 class="footer__title">focus</h6>
+      <footer class="footer">
+        <h6 class="footer__title decorated-zone">focus</h6>
       </footer>
     </main>
     <script src="./scripts/script.js"></script>
