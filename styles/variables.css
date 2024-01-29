@@ -15,6 +15,6 @@
   --button-outline-color: rgba(255, 0, 112, 0.4);
   --shadow-font-color: #ff0070;
   --display-rec: flex;
-  --header-bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --focus-color: #ff0070;
 }

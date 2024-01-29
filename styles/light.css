@@ -4,6 +4,21 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-color-main: #353430;
+    --font-color-accent: #ff8dcb;
+    --font-color-content-title: #353430;
+    --bg-color: #fff1f7;
+    --font-color-title: #ffc2e6;
+    --font-color-header: #353430;
+    --button-outline-color: rgba(50, 49, 45, 0.4);
+    --display-rec: none;
+    --bg-image: url(../images/cover-image-light.png);
+    --focus-color: #353430;
+  }
+}
+
 .page.theme_light {
   --font-color-main: #353430;
   --font-color-accent: #ff8dcb;
@@ -13,7 +28,7 @@
   --font-color-header: #353430;
   --button-outline-color: rgba(50, 49, 45, 0.4);
   --display-rec: none;
-  --header-bg-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --focus-color: #353430;
 
   /* сохраните этот селектор в приведённом виде.

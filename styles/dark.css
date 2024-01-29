@@ -4,7 +4,34 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-color-main: #f1b2ce;
+    --font-color-accent: #ff0070;
+    --font-color-title: #db00ff;
+    --font-color-header: #000028;
+    --font-color-content-title: #ff0070;
+    --bg-color: #000028;
+    --button-outline-color: rgba(255, 0, 112, 0.4);
+    --shadow-font-color: #ff0070;
+    --display-rec: flex;
+    --bg-image: url(../images/cover-image-dark.png);
+    --focus-color: #ff0070;
+  }
+}
+
 .page.theme_dark {
+  --font-color-main: #f1b2ce;
+  --font-color-accent: #ff0070;
+  --font-color-title: #db00ff;
+  --font-color-header: #000028;
+  --font-color-content-title: #ff0070;
+  --bg-color: #000028;
+  --button-outline-color: rgba(255, 0, 112, 0.4);
+  --shadow-font-color: #ff0070;
+  --display-rec: flex;
+  --bg-image: url(../images/cover-image-dark.png);
+  --focus-color: #ff0070;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
