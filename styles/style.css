@@ -269,6 +269,10 @@
 }
 
 @media (1023px >= width >= 768px) {
+  .content__row {
+    grid-template-columns: 1fr 2fr;
+  }
+
   .header__theme-menu {
     justify-self: flex-end;
     align-self: center;
